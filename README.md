@@ -29,6 +29,14 @@
 
 ---
 
+### 🌌 Interactive Skill Orbit Map
+
+<div align="center">
+  <img src="./skills_orbit.svg" alt="Skills Orbit Map" width="85%" />
+</div>
+
+---
+
 ### 🛠️ Tech Stack & Toolkit
 
 <details open>
