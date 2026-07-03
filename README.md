@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://myweb2002.w3spaces.com/New-PNC-Animated-Banners.gif" alt="Masterhead Banner" width="100%" style="border-radius: 12px; margin-bottom: 20px;" />
+  <img src="https://myweb2002.w3spaces.com/New-PNC-Animated-Banners.gif" alt="Masterhead Banner" width="100%"/>
 </div>
 
 <h1 align="center">Hi 👋, I'm Prabhat Kumar Shah</h1>
@@ -22,7 +22,7 @@
       </ul>
     </td>
     <td width="40%" valign="top" align="center">
-      <img src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" width="100%" style="border-radius: 12px; box-shadow: 0 4px 20px rgba(0,0,0,0.15);" />
+      <img src="https://cdn.dribbble.com/users/730703/screenshots/6581243/avento.gif" width="100%"/>
     </td>
   </tr>
 </table>
@@ -31,9 +31,9 @@
 
 ### 🌌 Interactive Skill Orbit Map
 
-<div align="center">
-  <img src="./skills_orbit.svg" alt="Skills Orbit Map" width="85%" />
-</div>
+<p align="center">
+  <img src="./skills_orbit.svg" alt="Skills Orbit Map" width="85%"/>
+</p>
 
 ---
 
@@ -81,59 +81,47 @@
 
 <table width="100%" border="0" cellpadding="10" cellspacing="0">
   <tr>
-    <!-- Project 1: Pipeline Builder -->
-    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
-      <div align="left">
-        <h3>⌁ Visual Pipeline Builder</h3>
-        <p>A professional node-based workflow editor built on React Flow and FastAPI with dynamic handle rendering and DFS validation.</p>
-        <p>
-          <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
-          <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-        </p>
-        <a href="https://github.com/Prabhat12112002/Pipeline-Builder" target="_blank"><b>Repository →</b></a>
-      </div>
+    <td width="50%" valign="top">
+      <h3>⌁ Visual Pipeline Builder</h3>
+      <p>A professional node-based workflow editor built on React Flow and FastAPI with dynamic handle rendering and DFS validation.</p>
+      <p>
+        <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+        <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+      </p>
+      <a href="https://github.com/Prabhat12112002/Pipeline-Builder"><b>🔗 Repository →</b></a>
     </td>
-    <!-- Project 2: Lease Assistant -->
-    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
-      <div align="left">
-        <h3>📄 Lease Assistant AI</h3>
-        <p>An intelligent RAG lease advisor application deployed on Streamlit, designed to search documents and answer clauses queries.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
-          <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
-          <img src="https://img.shields.io/badge/VectorDB-00D2FF?style=flat-square" alt="VectorDB" />
-        </p>
-        <a href="https://github.com/Prabhat12112002/Strealit_Lease_Agent" target="_blank"><b>Repository →</b></a>
-      </div>
+    <td width="50%" valign="top">
+      <h3>📄 Lease Assistant AI</h3>
+      <p>An intelligent RAG lease advisor on Streamlit that searches documents and answers clause-level queries instantly.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
+        <img src="https://img.shields.io/badge/VectorDB-00D2FF?style=flat-square" alt="VectorDB" />
+      </p>
+      <a href="https://github.com/Prabhat12112002/Strealit_Lease_Agent"><b>🔗 Repository →</b></a>
     </td>
   </tr>
   <tr>
-    <!-- Project 3: Email Automation -->
-    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
-      <div align="left">
-        <h3>✉️ Email Automation Desktop App</h3>
-        <p>A smart automation desktop dashboard that monitors mailbox activities, categorizes content, and auto-drafts replies.</p>
-        <p>
-          <img src="https://img.shields.io/badge/Desktop-333?style=flat-square" alt="Desktop App" />
-          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-          <img src="https://img.shields.io/badge/LLMs-00F2FE?style=flat-square&logo=openai&logoColor=black" alt="LLMs" />
-        </p>
-        <a href="https://github.com/Prabhat12112002/Email-automation-desktop-app" target="_blank"><b>Repository →</b></a>
-      </div>
+    <td width="50%" valign="top">
+      <h3>✉️ Email Automation Desktop App</h3>
+      <p>A smart automation desktop dashboard that monitors mailbox activities, categorizes content, and auto-drafts replies.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Desktop_App-333?style=flat-square" alt="Desktop App" />
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        <img src="https://img.shields.io/badge/LLMs-00F2FE?style=flat-square&logo=openai&logoColor=black" alt="LLMs" />
+      </p>
+      <a href="https://github.com/Prabhat12112002/Email-automation-desktop-app"><b>🔗 Repository →</b></a>
     </td>
-    <!-- Project 4: Pathological Image Classification -->
-    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
-      <div align="left">
-        <h3>🔬 Pathological Image Classification</h3>
-        <p>Deep learning classification framework targeting high-resolution pathological medical images to identify tissue anomalies.</p>
-        <p>
-          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-          <img src="https://img.shields.io/badge/CNN-00599C?style=flat-square" alt="CNN" />
-          <img src="https://img.shields.io/badge/Medical_AI-00E676?style=flat-square" alt="Medical AI" />
-        </p>
-        <a href="https://github.com/Prabhat12112002/Pathelogical-Image-Classification_final" target="_blank"><b>Repository →</b></a>
-      </div>
+    <td width="50%" valign="top">
+      <h3>🔬 Pathological Image Classification</h3>
+      <p>Deep learning classification framework targeting high-resolution pathological medical images to identify tissue anomalies.</p>
+      <p>
+        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+        <img src="https://img.shields.io/badge/CNN-00599C?style=flat-square" alt="CNN" />
+        <img src="https://img.shields.io/badge/Medical_AI-00E676?style=flat-square" alt="Medical AI" />
+      </p>
+      <a href="https://github.com/Prabhat12112002/Pathelogical-Image-Classification_final"><b>🔗 Repository →</b></a>
     </td>
   </tr>
 </table>
@@ -143,12 +131,13 @@
 ### 📊 GitHub Stats & Metrics
 
 <div align="center">
-  <a href="https://github.com/Prabhat12112002" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight" alt="Prabhat's GitHub Stats" height="195" />
-  </a>
-  <a href="https://github.com/Prabhat12112002" target="_blank">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight" alt="Top Languages" height="195" />
-  </a>
+
+![Prabhat's GitHub Stats](https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117)
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com?user=Prabhat12112002&theme=tokyonight&hide_border=true&background=0D1117)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117)
+
 </div>
 
 ---
