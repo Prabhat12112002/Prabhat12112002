@@ -30,10 +30,8 @@
 ---
 
 ### 🌌 Interactive Skill Orbit Map
+<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/622544dd-9f8c-478d-af3c-13f6f82d6193" />
 
-<p align="center">
-  <img src="./skills_orbit.svg" alt="Skills Orbit Map" width="85%"/>
-</p>
 
 ---
 
