@@ -30,8 +30,10 @@
 ---
 
 ### 🌌 Interactive Skill Orbit Map
-<img width="800" height="600" alt="image" src="https://github.com/user-attachments/assets/622544dd-9f8c-478d-af3c-13f6f82d6193" />
 
+<p align="center">
+  <img src="./skills_orbit.svg" alt="Skills Orbit Map" width="85%"/>
+</p>
 
 ---
 
@@ -129,8 +131,8 @@
 ### 📊 GitHub Stats & Metrics
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="195"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" height="195"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="GitHub Stats" height="195"/>
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" height="195"/>
 </p>
 <p align="center">
   <img src="https://streak-stats.demolab.com?user=Prabhat12112002&theme=tokyonight&hide_border=true&background=0D1117" alt="GitHub Streak"/>
