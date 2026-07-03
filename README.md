@@ -24,7 +24,7 @@
   .about-gif { flex: 1; text-align: center; }
   .about-gif img { border-radius: 12px; width: 100%; }
   .orbit-wrapper { text-align: center; margin: 20px 0; }
-  .orbit-wrapper object { width: 90%; max-width: 750px; }
+  .orbit-wrapper svg { width: 90%; max-width: 750px; height: auto; display: inline-block; }
   .badge-row { display: flex; flex-wrap: wrap; gap: 8px; margin: 10px 0 20px; }
   .badge-row img { height: 28px; }
   details { margin-bottom: 12px; }
@@ -75,7 +75,182 @@
   <!-- ORBIT -->
   <h3>🌌 Interactive Skill Orbit Map</h3>
   <div class="orbit-wrapper">
-    <object type="image/svg+xml" data="skills_orbit.svg">Skills Orbit</object>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600">
+      <defs>
+        <radialGradient id="cg" cx="50%" cy="50%" r="50%">
+          <stop offset="0%" stop-color="#38bdf8"/>
+          <stop offset="100%" stop-color="#6366f1"/>
+        </radialGradient>
+        <radialGradient id="bg" cx="50%" cy="50%" r="65%">
+          <stop offset="0%" stop-color="#111827"/>
+          <stop offset="100%" stop-color="#030712"/>
+        </radialGradient>
+        <filter id="gl">
+          <feGaussianBlur stdDeviation="3" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+        <filter id="gl2">
+          <feGaussianBlur stdDeviation="5" result="b"/>
+          <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+        </filter>
+      </defs>
+
+      <!-- Background -->
+      <rect width="800" height="600" rx="16" ry="16" fill="url(#bg)"/>
+
+      <!-- Stars -->
+      <circle cx="55" cy="40" r="1.2" fill="#e2e8f0"><animate attributeName="opacity" values="0.1;0.7;0.1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="745" cy="55" r="1.4" fill="#e2e8f0"><animate attributeName="opacity" values="0.15;0.8;0.15" dur="2.5s" repeatCount="indefinite"/></circle>
+      <circle cx="150" cy="85" r="0.9" fill="#e2e8f0"><animate attributeName="opacity" values="0.1;0.5;0.1" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="680" cy="120" r="1.1" fill="#e2e8f0"><animate attributeName="opacity" values="0.2;0.65;0.2" dur="3.3s" repeatCount="indefinite"/></circle>
+      <circle cx="90" cy="480" r="1.3" fill="#e2e8f0"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="2.8s" repeatCount="indefinite"/></circle>
+      <circle cx="720" cy="510" r="1" fill="#e2e8f0"><animate attributeName="opacity" values="0.15;0.55;0.15" dur="3.6s" repeatCount="indefinite"/></circle>
+      <circle cx="200" cy="555" r="0.8" fill="#e2e8f0"><animate attributeName="opacity" values="0.1;0.45;0.1" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="600" cy="560" r="1.2" fill="#e2e8f0"><animate attributeName="opacity" values="0.2;0.7;0.2" dur="2.2s" repeatCount="indefinite"/></circle>
+      <circle cx="400" cy="30" r="1" fill="#e2e8f0"><animate attributeName="opacity" values="0.1;0.6;0.1" dur="3.8s" repeatCount="indefinite"/></circle>
+      <circle cx="50" cy="300" r="0.9" fill="#e2e8f0"><animate attributeName="opacity" values="0.15;0.5;0.15" dur="4.2s" repeatCount="indefinite"/></circle>
+      <circle cx="760" cy="300" r="1.1" fill="#e2e8f0"><animate attributeName="opacity" values="0.1;0.55;0.1" dur="3.1s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="570" r="0.7" fill="#e2e8f0"><animate attributeName="opacity" values="0.2;0.4;0.2" dur="5s" repeatCount="indefinite"/></circle>
+
+      <!-- RING 1: Inner (r=110) -->
+      <g transform="translate(400,300)">
+        <g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="45s" repeatCount="indefinite"/>
+          <circle r="110" fill="none" stroke="#38bdf8" stroke-width="0.8" stroke-dasharray="4 8" opacity="0.25"/>
+        </g>
+      </g>
+      <!-- RING 2: Middle (r=185) -->
+      <g transform="translate(400,300)">
+        <g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="60s" repeatCount="indefinite"/>
+          <circle r="185" fill="none" stroke="#a78bfa" stroke-width="1" stroke-dasharray="5 10" opacity="0.22"/>
+        </g>
+      </g>
+      <!-- RING 3: Outer (r=260) -->
+      <g transform="translate(400,300)">
+        <g><animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="80s" repeatCount="indefinite"/>
+          <circle r="260" fill="none" stroke="#fb7185" stroke-width="1.2" stroke-dasharray="6 12" opacity="0.2"/>
+        </g>
+      </g>
+
+      <!-- CORE -->
+      <g transform="translate(400,300)" filter="url(#gl2)">
+        <circle r="48" fill="url(#cg)" opacity="0.95"/>
+        <circle r="56" fill="none" stroke="#38bdf8" stroke-width="1.2">
+          <animate attributeName="r" values="56;64;56" dur="3s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.45;0.1;0.45" dur="3s" repeatCount="indefinite"/>
+        </circle>
+        <circle r="60" fill="none" stroke="#818cf8" stroke-width="0.6">
+          <animate attributeName="r" values="62;72;62" dur="4.5s" repeatCount="indefinite"/>
+          <animate attributeName="opacity" values="0.25;0.03;0.25" dur="4.5s" repeatCount="indefinite"/>
+        </circle>
+        <text x="0" y="-4" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="16" font-weight="800" fill="#ffffff" letter-spacing="1.5">PRABHAT</text>
+        <text x="0" y="16" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="9" font-weight="700" fill="#bae6fd" letter-spacing="3">SKILLS</text>
+      </g>
+
+      <!-- INNER ORBIT NODES (r=110, CW, 28s) -->
+      <!-- DSA @ 0° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="28s" repeatCount="indefinite"/>
+        <g transform="translate(110,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="28s" repeatCount="indefinite"/>
+          <rect x="-22" y="-14" width="44" height="28" rx="8" fill="#111827" stroke="#34d399" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#34d399">DSA</text>
+        </g></g>
+      </g></g>
+      <!-- C++ @ 120° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="120 0 0" to="480 0 0" dur="28s" repeatCount="indefinite"/>
+        <g transform="translate(110,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-120 0 0" to="-480 0 0" dur="28s" repeatCount="indefinite"/>
+          <rect x="-22" y="-14" width="44" height="28" rx="8" fill="#111827" stroke="#38bdf8" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#38bdf8">C++</text>
+        </g></g>
+      </g></g>
+      <!-- SQL @ 240° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="240 0 0" to="600 0 0" dur="28s" repeatCount="indefinite"/>
+        <g transform="translate(110,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-240 0 0" to="-600 0 0" dur="28s" repeatCount="indefinite"/>
+          <rect x="-22" y="-14" width="44" height="28" rx="8" fill="#111827" stroke="#22d3ee" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#22d3ee">SQL</text>
+        </g></g>
+      </g></g>
+
+      <!-- MIDDLE ORBIT NODES (r=185, CCW, 38s) -->
+      <!-- React @ 0° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="38s" repeatCount="indefinite"/>
+        <g transform="translate(185,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="38s" repeatCount="indefinite"/>
+          <rect x="-28" y="-14" width="56" height="28" rx="8" fill="#111827" stroke="#a78bfa" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#a78bfa">React</text>
+        </g></g>
+      </g></g>
+      <!-- Python @ 120° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="120 0 0" to="-240 0 0" dur="38s" repeatCount="indefinite"/>
+        <g transform="translate(185,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-120 0 0" to="240 0 0" dur="38s" repeatCount="indefinite"/>
+          <rect x="-30" y="-14" width="60" height="28" rx="8" fill="#111827" stroke="#c084fc" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#c084fc">Python</text>
+        </g></g>
+      </g></g>
+      <!-- JavaScript @ 240° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="240 0 0" to="-120 0 0" dur="38s" repeatCount="indefinite"/>
+        <g transform="translate(185,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-240 0 0" to="120 0 0" dur="38s" repeatCount="indefinite"/>
+          <rect x="-40" y="-14" width="80" height="28" rx="8" fill="#111827" stroke="#e879f9" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#e879f9">JavaScript</text>
+        </g></g>
+      </g></g>
+
+      <!-- OUTER ORBIT NODES (r=260, CW, 55s) -->
+      <!-- LLMs @ 0° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="360 0 0" dur="55s" repeatCount="indefinite"/>
+        <g transform="translate(260,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="0 0 0" to="-360 0 0" dur="55s" repeatCount="indefinite"/>
+          <rect x="-26" y="-15" width="52" height="30" rx="9" fill="#111827" stroke="#fb7185" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#fb7185">LLMs</text>
+        </g></g>
+      </g></g>
+      <!-- RAG @ 72° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="72 0 0" to="432 0 0" dur="55s" repeatCount="indefinite"/>
+        <g transform="translate(260,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-72 0 0" to="-432 0 0" dur="55s" repeatCount="indefinite"/>
+          <rect x="-22" y="-15" width="44" height="30" rx="9" fill="#111827" stroke="#f472b6" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#f472b6">RAG</text>
+        </g></g>
+      </g></g>
+      <!-- LangChain @ 144° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="144 0 0" to="504 0 0" dur="55s" repeatCount="indefinite"/>
+        <g transform="translate(260,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-144 0 0" to="-504 0 0" dur="55s" repeatCount="indefinite"/>
+          <rect x="-40" y="-15" width="80" height="30" rx="9" fill="#111827" stroke="#fda4af" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#fda4af">LangChain</text>
+        </g></g>
+      </g></g>
+      <!-- LangGraph @ 216° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="216 0 0" to="576 0 0" dur="55s" repeatCount="indefinite"/>
+        <g transform="translate(260,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-216 0 0" to="-576 0 0" dur="55s" repeatCount="indefinite"/>
+          <rect x="-42" y="-15" width="84" height="30" rx="9" fill="#111827" stroke="#ff7eb3" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#ff7eb3">LangGraph</text>
+        </g></g>
+      </g></g>
+      <!-- VectorDB @ 288° -->
+      <g transform="translate(400,300)"><g>
+        <animateTransform attributeName="transform" type="rotate" from="288 0 0" to="648 0 0" dur="55s" repeatCount="indefinite"/>
+        <g transform="translate(260,0)"><g>
+          <animateTransform attributeName="transform" type="rotate" from="-288 0 0" to="-648 0 0" dur="55s" repeatCount="indefinite"/>
+          <rect x="-38" y="-15" width="76" height="30" rx="9" fill="#111827" stroke="#fca5a5" stroke-width="1.5" filter="url(#gl)"/>
+          <text x="0" y="5" text-anchor="middle" font-family="Segoe UI,Arial,sans-serif" font-size="11" font-weight="700" fill="#fca5a5">VectorDB</text>
+        </g></g>
+      </g></g>
+    </svg>
   </div>
 
   <hr/>
