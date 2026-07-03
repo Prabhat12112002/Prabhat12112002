@@ -98,12 +98,13 @@
     <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
       <div align="left">
         <h3>📄 Lease Assistant AI</h3>
-        <p>An intelligent RAG assistant built to parse complex lease agreements, automatically extract key clauses, and answer queries.</p>
+        <p>An intelligent RAG lease advisor application deployed on Streamlit, designed to search documents and answer clauses queries.</p>
         <p>
-          <img src="https://img.shields.io/badge/LLMs-00F2FE?style=flat-square&logo=openai&logoColor=black" alt="LLMs" />
+          <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=flat-square&logo=streamlit&logoColor=white" alt="Streamlit" />
           <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
           <img src="https://img.shields.io/badge/VectorDB-00D2FF?style=flat-square" alt="VectorDB" />
         </p>
+        <a href="https://github.com/Prabhat12112002/Strealit_Lease_Agent" target="_blank"><b>Repository →</b></a>
       </div>
     </td>
   </tr>
@@ -111,25 +112,27 @@
     <!-- Project 3: Email Automation -->
     <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
       <div align="left">
-        <h3>✉️ Agentic Email Automation</h3>
-        <p>A smart multi-agent workflow that listens to incoming emails, categorizes content intent, and drafts context-aware replies.</p>
+        <h3>✉️ Email Automation Desktop App</h3>
+        <p>A smart automation desktop dashboard that monitors mailbox activities, categorizes content, and auto-drafts replies.</p>
         <p>
-          <img src="https://img.shields.io/badge/LangGraph-FF6F00?style=flat-square" alt="LangGraph" />
-          <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
-          <img src="https://img.shields.io/badge/APIs-333?style=flat-square" alt="APIs" />
+          <img src="https://img.shields.io/badge/Desktop-333?style=flat-square" alt="Desktop App" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+          <img src="https://img.shields.io/badge/LLMs-00F2FE?style=flat-square&logo=openai&logoColor=black" alt="LLMs" />
         </p>
+        <a href="https://github.com/Prabhat12112002/Email-automation-desktop-app" target="_blank"><b>Repository →</b></a>
       </div>
     </td>
     <!-- Project 4: Pathological Image Classification -->
     <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
       <div align="left">
         <h3>🔬 Pathological Image Classification</h3>
-        <p>A deep learning computer vision model designed to classify high-resolution pathology scans and assist in anomaly detection.</p>
+        <p>Deep learning classification framework targeting high-resolution pathological medical images to identify tissue anomalies.</p>
         <p>
           <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
           <img src="https://img.shields.io/badge/CNN-00599C?style=flat-square" alt="CNN" />
-          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+          <img src="https://img.shields.io/badge/Medical_AI-00E676?style=flat-square" alt="Medical AI" />
         </p>
+        <a href="https://github.com/Prabhat12112002/Pathelogical-Image-Classification_final" target="_blank"><b>Repository →</b></a>
       </div>
     </td>
   </tr>
@@ -139,10 +142,14 @@
 
 ### 📊 GitHub Stats & Metrics
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight&locale=en&hide_border=false&border_radius=10&border_color=7f00ff" alt="Prabhat's GitHub Stats" height="195" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight&locale=en&hide_border=false&border_radius=10&border_color=e100ff" alt="Top Languages" height="195" />
-</p>
+<div align="center">
+  <a href="https://github.com/Prabhat12112002" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight" alt="Prabhat's GitHub Stats" height="195" />
+  </a>
+  <a href="https://github.com/Prabhat12112002" target="_blank">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight" alt="Top Languages" height="195" />
+  </a>
+</div>
 
 ---
 
