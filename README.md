@@ -79,30 +79,70 @@
 
 ### 🏆 Featured Projects
 
-<div align="center">
-  <h4>⌁ <a href="https://github.com/Prabhat12112002/Pipeline-Builder">Visual Pipeline Builder</a></h4>
-  <p>A professional node-based workflow editor built on React Flow and FastAPI with interactive cycle validation.</p>
-  <a href="https://github.com/Prabhat12112002/Pipeline-Builder">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=Prabhat12112002&repo=Pipeline-Builder&theme=tokyonight&show_owner=false&hide_border=true" alt="Pipeline Builder Repo Card" />
-  </a>
-</div>
+<table width="100%" border="0" cellpadding="10" cellspacing="0">
+  <tr>
+    <!-- Project 1: Pipeline Builder -->
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
+      <div align="left">
+        <h3>⌁ Visual Pipeline Builder</h3>
+        <p>A professional node-based workflow editor built on React Flow and FastAPI with dynamic handle rendering and DFS validation.</p>
+        <p>
+          <img src="https://img.shields.io/badge/React-61DAFB?style=flat-square&logo=react&logoColor=black" alt="React" />
+          <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+          <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+        </p>
+        <a href="https://github.com/Prabhat12112002/Pipeline-Builder" target="_blank"><b>Repository →</b></a>
+      </div>
+    </td>
+    <!-- Project 2: Lease Assistant -->
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
+      <div align="left">
+        <h3>📄 Lease Assistant AI</h3>
+        <p>An intelligent RAG assistant built to parse complex lease agreements, automatically extract key clauses, and answer queries.</p>
+        <p>
+          <img src="https://img.shields.io/badge/LLMs-00F2FE?style=flat-square&logo=openai&logoColor=black" alt="LLMs" />
+          <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=chainlink&logoColor=white" alt="LangChain" />
+          <img src="https://img.shields.io/badge/VectorDB-00D2FF?style=flat-square" alt="VectorDB" />
+        </p>
+      </div>
+    </td>
+  </tr>
+  <tr>
+    <!-- Project 3: Email Automation -->
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
+      <div align="left">
+        <h3>✉️ Agentic Email Automation</h3>
+        <p>A smart multi-agent workflow that listens to incoming emails, categorizes content intent, and drafts context-aware replies.</p>
+        <p>
+          <img src="https://img.shields.io/badge/LangGraph-FF6F00?style=flat-square" alt="LangGraph" />
+          <img src="https://img.shields.io/badge/OpenAI-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+          <img src="https://img.shields.io/badge/APIs-333?style=flat-square" alt="APIs" />
+        </p>
+      </div>
+    </td>
+    <!-- Project 4: Pathological Image Classification -->
+    <td width="50%" valign="top" style="border: 1px solid #30363d; border-radius: 8px; padding: 15px;">
+      <div align="left">
+        <h3>🔬 Pathological Image Classification</h3>
+        <p>A deep learning computer vision model designed to classify high-resolution pathology scans and assist in anomaly detection.</p>
+        <p>
+          <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+          <img src="https://img.shields.io/badge/CNN-00599C?style=flat-square" alt="CNN" />
+          <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white" alt="OpenCV" />
+        </p>
+      </div>
+    </td>
+  </tr>
+</table>
 
 ---
 
 ### 📊 GitHub Stats & Metrics
 
-<div align="center">
-  <table border="0">
-    <tr>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Prabhat's GitHub Stats" height="180px" />
-      </td>
-      <td align="center">
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight&hide_border=true&bg_color=0d1117" alt="Top Languages" height="180px" />
-      </td>
-    </tr>
-  </table>
-</div>
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=Prabhat12112002&show_icons=true&theme=tokyonight&locale=en&hide_border=false&border_radius=10&border_color=7f00ff" alt="Prabhat's GitHub Stats" height="195" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Prabhat12112002&layout=compact&theme=tokyonight&locale=en&hide_border=false&border_radius=10&border_color=e100ff" alt="Top Languages" height="195" />
+</p>
 
 ---
 
